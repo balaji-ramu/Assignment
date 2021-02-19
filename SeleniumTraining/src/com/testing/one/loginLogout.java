@@ -28,7 +28,7 @@ public class loginLogout {
 		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS) ;
 	
 		driver.findElement(By.xpath("//a[text()='Login']")).click();
-		System.out.println("\n Login is successful");
+		//System.out.println("\n Login is successful");
 		
 		
 		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS) ;
